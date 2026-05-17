@@ -85,7 +85,7 @@ module.exports = (req, res) => {
   const base64 = Buffer.from(subText).toString('base64');
 
   res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-  res.setHeader('Profile-Title', 'base64:' + Buffer.from('🚀 MyVPN Premium').toString('base64'));
+  res.setHeader('Profile-Title', 'base64:' + Buffer.from('🚀 ARBIZZVPN').toString('base64'));
   res.setHeader('Profile-Update-Interval', '24');
   res.setHeader('Support-URL', 'https://t.me/yourchannel');
 
